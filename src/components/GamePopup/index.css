@@ -1,0 +1,35 @@
+.popup-container {
+  background-color: #ffffff;
+  width: 1000px;
+  border-radius: 16px;
+  background-size: cover;
+  height: 100px;
+}
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.content {
+  margin-top: 12px;
+  margin-left: 48px;
+  margin-bottom: 48px;
+  margin-right: 48px;
+}
+.close-button {
+  align-self: flex-end;
+  background-color: transparent;
+  width: 28px;
+  height: 28px;
+  border: none;
+  margin-top: 18px;
+  margin-right: 18px;
+  outline: none;
+  cursor: pointer;
+}
+.close-icon {
+  font-size: 25px;
+  color: #ffffff;
+}

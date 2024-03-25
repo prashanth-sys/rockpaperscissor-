@@ -1,0 +1,150 @@
+.bg-container {
+  background-color: #223a5f;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 9px;
+  display: flex;
+  flex-direction: column;
+}
+.card-container {
+  background-color: transparent;
+  border: solid #ffffff 2px;
+  width: 50%;
+  align-self: center;
+  margin-top: 55px;
+  border-radius: 5px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.game-name {
+  font-family: 'Bree Serif';
+  margin-left: 25px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.score-container {
+  background-color: #ffffff;
+  color: #223a5f;
+  margin-right: 45px;
+  margin: 9px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+}
+.score-heading {
+  font-family: 'Bree Serif';
+  font-size: 21px;
+}
+.scores-heading {
+  font-family: 'Roboto';
+}
+.image {
+  width: 100%;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.button {
+  background-color: #ffffff;
+  height: 32px;
+  width: 69px;
+  font-family: 'Bree Serif';
+  border-width: 0px;
+  border-radius: 5px;
+  color: #223a5f;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.game-button {
+  background-color: transparent;
+  border-width: 0px;
+  width: 100%;
+  height: 100%;
+}
+.selected-image {
+  width: 30%;
+}
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.game-container {
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-top: 5%;
+}
+.play-again-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 9%;
+}
+.playButton {
+  background-color: #ffffff;
+  height: 39px;
+  width: 140px;
+  border-width: 0px;
+  font-family: 'Bree Serif';
+  color: #223a5f;
+  border-radius: 9px;
+}
+.game-show-container {
+  display: flex;
+}
+.test-1 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 500px;
+  height: 500px;
+  color: #ffffff;
+}
+.your-custom-class {
+  align-self: flex-end;
+}
+.game-result {
+  font-family: 'Bree serif';
+  color: #ffffff;
+}
+
+@media (max-width: 575.98px) {
+  .card-container {
+    width: 90%;
+  }
+}
+
+/* Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Playing View */
+@media (min-width: 768px) {
+  .bg-container {
+    padding: 20px;
+  }
+  .card-container {
+    width: 50%;
+    margin-top: 55px;
+  }
+}
+
+/* Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Game Results View */
+@media (min-width: 768px) {
+  /* Add styles for game results view here */
+}
+
+/* Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Game Rules View */
+@media (min-width: 768px) {
+  /* Add styles for game rules view here */
+}
